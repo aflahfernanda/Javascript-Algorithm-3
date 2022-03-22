@@ -15,7 +15,7 @@ function divideAndSort(arrLength) {
           return i - e;
         })
         .join("");
-      result += indeks;
+      result += indeksSplit;
     }
     console.log(result);
   }
